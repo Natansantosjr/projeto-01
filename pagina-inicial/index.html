@@ -4,38 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto poesia e arte</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+        :root{
+            --fonte1 : "Roboto" ;
+            --fonte3: "Sriracha", cursive;
+        }
+       *{
+        margin: 0px;
+        padding: 0px;
+        color: whitesmoke;
+        
+       }
+       body{
+        background-color: #961e0ef1;
+        min-height: 100vh;
+        }
+  
+        header{
+          text-align: center;
+          background-color: #9e1c1c;
+          background-image: url(img/header.jpg);
+          background-position: bottom center;
+          color: whitesmoke;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 6px;
+          border-radius: 20px;
+        }
+        header>h1{
+            padding: 20px;
+            text-shadow: -7px 8px 4px black;
+            
+        }
+        main{
+            background-color: rgba(136, 27, 0, 0.548);
+        }
+        br{
+            text-align: justify;
+        }
+        section>p{
+            padding-bottom: 2em;
+            padding-top: 1em;
+            margin-left: 2em;
+            line-height: 1.5;
+             
+        }
+        section{
+            font-size: 5vh;
+            font-weight: 600;
+            text-shadow: 1px 4px 4px rgb(5, 5, 5);
+            
+             
+           
+        }
+        section.img{
+            background-image: url(img/612x612.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:   0cqi, bottom;
+            background-attachment: fixed;
+            border-radius: 10px; 
+            box-shadow:  inset -4px -1px 20px  black ;  
+            
+        }
+        section.img>p{
+            background-color: rgba(0, 0, 0, 0.192);
+            display: inline-block;
+            padding-top: 20px;
+            margin-top: 10px;  
+            border-radius: 10px;
+        }
+        footer{
+          display: flex;
+          flex-direction: row;   
+          background-color: grey;
+        }
+        footer>h1{
+          color: black;
+          text-align: center;
+          font-family:var(--fonte3);
+          font-weight: 100;
+          padding-right: 50%;
+         
+        }
+     .instagram {
+      
+       
+    }
+        
+    </style>
 </head>
 <body>
     <header>
-         <div>
-            <h1>Poesia e Arte</h1>
-         </div>
-        <ul>
-            <li>Menu</li>
-            <li>Redes Socias</li>
-        </ul>   
+        <h1>Banhos quentes</h1>
     </header>
     <main>
-       <h1>Poesias</h1>
-       <h2>Banhos quentes</h2>
-       <section>
-        <p> Se eu estivesse com alguma doença terminal, e estivesse naquele estágio onde tudo e todos me mimam, eu com certeza, pediria horas de banho emabixo de um chuveiro quente.
-        </p>
-       </section>
-       <section>
-        <p>Por que banho quente? Bom, me remete a infância... Quando as coisas iam ruins, sempre terminavam em banhos quentes e abraços. </p>
-       </section>
-       <section>
-        <p>Apois um tropeço, uma briga, ou até mesmo depois de arrancar um dente. O banho quente era e ainda é o meu refúgio </p>
-       </section>
-       <section>
-        <p>A diferença é que já sou dulta e tenho que eu mesma me dar o meu banho qunete, me abraçar e jurar com todas as metiras possíveis de que tudo vai ficar bem.</p>
-        <p>E o mais importante, não posso esquecer de passar uma pomada depois..  </p>
-       </section>
-       
-       
+           <section class="normal">
+            <p> 
+                Se eu estivesse com  alguma <br>
+            doença terminal e estivesse <br>
+             naquele estágio  onde tudo <br>
+             e todos  me mimam, eu com <br> 
+             certeza, pediria horas de banho  <br>
+             embaixo de um chuveiro quente. <br>
+            </p>
+           </section>
+
+           <section class="img">
+            <p id="1">
+                Por que banho quente? <br>
+               Bom, me remete a infância... <br>
+               Quando as coisas iam ruins, <br>
+               sempre terminavam em  <br>
+                banhos quentes e abraços. <br>
+            
+             Apois um tropeço, uma  <br>
+             briga,ou até mesmo depois <br>
+              de arrancar um dente.<br>
+             O banho quente era e <br>
+              ainda é meu refúgio <br>
+            </p>
+         </section>
+
+           <section class="normal">
+            <p>
+                A diferença é que já sou <br>
+                  adulta e tenho que eu mesma <br>
+                  me dar o meu banho quente,<br>
+                  me abraçar e jurar com todas <br>
+                  as metiras possíveis de que <br>
+                  tudo vai ficar bem. 
+                </p>
+
+            <p>E o mais importante, não posso esquecer de passar uma pomada depois..  </p>
+           </section>
     </main>
     <footer>
-
+        <h1>Kayaa</h1>
+        <div class="instagram">
+            <a href="https://www.instagram.com/_.zkayaa._?igsh=amNzdXZpbHVyYTY3
+            " target="_blank"><img src="footer-img/inst-png80.webp" ></a>
+        </div>
     </footer>
 </body>
